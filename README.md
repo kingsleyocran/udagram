@@ -18,7 +18,7 @@
   <h3 align="center">ugagram</h3>
 
   <p align="center">
-    Udacity Cloud Developer Project 2
+    Udagram is a simple cloud application developed alongside the Udacity Cloud Engineering Nanodegree. It allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice.
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />

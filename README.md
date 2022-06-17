@@ -12,7 +12,7 @@
 <br />
 <div align="center">
   <a href="#">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Logo" width="170" height="150">
   </a>
 
   <h3 align="center">ugagram</h3>

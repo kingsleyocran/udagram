@@ -12,13 +12,13 @@
 <br />
 <div align="center">
   <a href="#">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Logo" width="170" height="150">
   </a>
 
   <h3 align="center">ugagram</h3>
 
   <p align="center">
-    Udacity Cloud Developer Project 2
+    Udagram is a simple cloud application developed alongside the Udacity Cloud Engineering Nanodegree. It allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice.
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
@@ -58,14 +58,11 @@
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [Node.js](https://nodejs.org/)
+* [Express.js](https://expressjs.com/)
+* [TypeScript](https://www.typescriptlang.org)
+* [Jimp](https://www.npmjs.com/package/jimp)
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -102,6 +99,12 @@ This is an example of how to list things you need to use the software and how to
 
 ## Usage
 
+1. Install NPM packages
+   ```sh
+   npm run dev
+   ```
+2. GET -> http://{{HOST}}/filteredimage?image_url=https://timedotcom.files.wordpress.com/2019/03/kitten-report.jpg
+   
 _For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -122,9 +125,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Thanks to Udacity Cloud Developer Course for providing the starter code.
 
 ## 📝 License
 

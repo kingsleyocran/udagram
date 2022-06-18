@@ -1,10 +1,12 @@
 import express from 'express';
 import bodyParser from "body-parser";
 import { IndexRouter } from "./controller/v0/index.router";
+require('dotenv').config();
 
 
 (async () => {
   // Init the Express application
+
   const app = express();
   var logger = require("morgan");
 

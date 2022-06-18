@@ -1,6 +1,6 @@
 import fs from "fs";
 import Jimp = require("jimp");
-const imageDownloader = require('node-image-downloader')
+const imageDownloader = require('image-downloader')
 
 
 // filterImageFromURL
@@ -30,7 +30,7 @@ export async function filterImageFromURL(inputURL: string): Promise<string>{
           }   
 
       }).catch(function(err){
-          reject ('Reading');                        
+          reject ('Reading');                       
       })
     
   });

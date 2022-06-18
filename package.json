@@ -29,8 +29,11 @@
   },
   "dependencies": {
     "express": "^4.17.1",
+    "image-downloader": "^4.3.0",
     "jimp": "^0.16.1",
-    "rimraf": "^3.0.2",
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.15",
+    "morgan": "^1.9.0",
+    "node-image-downloader": "^1.0.7",
+    "rimraf": "^3.0.2"
   }
 }
